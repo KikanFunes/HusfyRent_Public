@@ -1,45 +1,51 @@
-# HusfyRent (Public Showcase)
+# HusfyRent (Public Demo)
 
-HusfyRent is a web application designed to manage rental properties and contracts with efficiency and clarity. This public version includes a simplified view of the **property owner** and **property management modules**, showcasing key components of the full app while keeping sensitive business logic private.
+🛠️ **HusfyRent** is a web application designed to simplify property rental management. This public version is a functional demo intended for recruitment purposes, showcasing selected components and simulated data.
 
-## 🚀 Features Demonstrated
+## 🚀 Live Demo
 
-- Owner Management Module
-  - Create and view owners
-  - Store contact and banking information
-- Property Management Module
-  - Add properties with types, locations and owner assignment
-- Tailwind UI components with Material Tailwind and Heroicons
-- Modular structure and clean code organization
-- Built with **React + Vite + Tailwind CSS**
+👉 [View Public Demo on Vercel](https://husfy-rent-public-38f6.vercel.app)
 
-## 📁 Project Structure
+## ✨ Features included in this demo
+
+- Register new landlords using a dynamic form.
+- Basic field validations.
+- Responsive list display of landlords.
+- Modal to view landlord details.
+- Uses simulated data (`mockData.js`) for presentation purposes.
+
+## 🧪 Tech Stack
+
+- React + Vite
+- TailwindCSS
+- Material Tailwind UI
+- React Phone Input 2
+
+## 📁 Folder Structure (highlighted)
 
 husfyrent_public/
-├── index.html
+├── src/
+│   ├── components/         # Reusable components
+│   │   └── ModalEditarPropietario.jsx
+│   ├── pages/              # Main pages
+│   │   ├── propietarios.jsx
+│   │   └── mockData.js
+│   ├── main.jsx
+│   └── index.css
+├── public/
+│   └── index.html
 ├── vite.config.js
 ├── tailwind.config.cjs
-└── src/
-└── pages/
-├── propietarios.jsx
-└── propiedades.jsx
+└── postcss.config.cjs
 
-> This version is limited to frontend components only. Backend integrations (Supabase, database access, authentication, etc.) have been intentionally excluded for confidentiality.
+## 📦 Simulated Back-End
 
-## 🛠 Technologies Used
+This version does not connect to any real database. All data is simulated for the sake of user interface and logic demonstration.
 
-- React (with Hooks)
-- Vite
-- Tailwind CSS
-- Material Tailwind
-- Heroicons
+## 🙋 About this version
 
-## 👨‍💻 About Me
-
-I'm a Junior Web Developer transitioning from a strong background in B2B tech sales. I’m focused on building real-world tools using modern frameworks and best practices.
-
-📫 [Connect with me on LinkedIn](https://www.linkedin.com/in/christian-funes-gonzalez) or (https://www.chrisfunes.dev)
+This demo was created specifically for **technical and visual review** by recruiters. The full version, including real database logic and back-end functionality, is hosted in a private repository.
 
 ---
 
-Feel free to explore the code, and reach out if you'd like to collaborate or discuss new opportunities!
+Made with ❤️ by [Christian Funes](https://www.linkedin.com/in/christianfunes/)
